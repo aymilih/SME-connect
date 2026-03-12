@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMEConnect</title>
+
+<style>
+
+body{
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+background:#f5f5f7;
+margin:0;
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.phone{
+width:375px;
+background:white;
+border-radius:40px;
+padding:25px;
+box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.icons{
+display:flex;
+gap:12px;
+font-size:18px;
+}
+
+.card{
+background:#1e6f5c;
+color:white;
+padding:18px;
+border-radius:18px;
+margin-bottom:25px;
+}
+
+.amount{
+font-size:28px;
+font-weight:600;
+margin-top:5px;
+}
+
+.actions{
+display:flex;
+justify-content:space-between;
+margin-bottom:30px;
+}
+
+.action{
+flex:1;
+background:#f2f2f2;
+margin:0 6px;
+padding:16px;
+border-radius:14px;
+text-align:center;
+font-size:14px;
+}
+
+.action.primary{
+background:#1e6f5c;
+color:white;
+font-weight:600;
+}
+
+.section-title{
+font-size:16px;
+margin-bottom:10px;
+}
+
+.transaction{
+display:flex;
+justify-content:space-between;
+padding:12px 0;
+border-bottom:1px solid #eee;
+font-size:14px;
+}
+
+.plus{
+color:#1e6f5c;
+}
+
+.minus{
+color:#d94b4b;
+}
+
+.nav{
+display:flex;
+justify-content:space-around;
+margin-top:30px;
+padding-top:15px;
+border-top:1px solid #eee;
+font-size:13px;
+color:#666;
+}
+
+.nav div{
+text-align:center;
+}
+
+.nav .center{
+color:#1e6f5c;
+font-weight:600;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="phone">
+
+<div class="topbar">
+<h3>Bonjour Emilie</h3>
+<div class="icons">
+🌍 🔔
+</div>
+</div>
+
+<div class="card">
+<div>Activité aujourd’hui</div>
+<div class="amount">240 500 FCFA</div>
+</div>
+
+<div class="actions">
+
+<div class="action primary">
+Facturer
+</div>
+
+<div class="action">
+Payer
+</div>
+
+<div class="action">
+Activité
+</div>
+
+</div>
+
+<div class="section-title">Activité récente</div>
+
+<div class="transaction">
+<span>Client</span>
+<span class="plus">+ 2 000 FCFA</span>
+</div>
+
+<div class="transaction">
+<span>Client</span>
+<span class="plus">+ 5 000 FCFA</span>
+</div>
+
+<div class="transaction">
+<span>Fournisseur</span>
+<span class="minus">- 8 500 FCFA</span>
+</div>
+
+<div class="nav">
+
+<div>Accueil</div>
+<div>Réseau</div>
+<div class="center">Facturer</div>
+<div>Historique</div>
+<div>Entreprise</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
